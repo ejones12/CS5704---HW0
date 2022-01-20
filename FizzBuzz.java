@@ -2,11 +2,7 @@
 
 public class FizzBuzz{
 
-    public static main(String[] args){
-        FizzBuzz();
-    }
-
-    public void FizzBuzz() {
+    public static void main(String[] args){
         for(int i =1; i<21;i++){
             if(i % 3 == 0 && i % 5 == 0){
                 System.out.println("FizzBuzz");
@@ -22,4 +18,5 @@ public class FizzBuzz{
             }
         }
     }
+
 }
